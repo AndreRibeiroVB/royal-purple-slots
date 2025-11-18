@@ -1,0 +1,11 @@
+{
+  "history": [
+    { "spinId": "0001", "bet": 1, "lines": 25, "result": ["A","K","Q","J","Coin"], "win": 0 },
+    { "spinId": "0002", "bet": 1, "lines": 25, "result": ["J","J","J","J","J"], "win": 5 }
+  ],
+  "rtp": 95.2,
+  "lastWins": [
+    { "user":"Demo", "win": 250, "time": "2025-11-17T16:00:00Z" },
+    { "user":"QA", "win": 120, "time": "2025-11-17T18:30:00Z" }
+  ]
+}
