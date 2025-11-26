@@ -31,6 +31,12 @@ namespace Slots.Config
 
         [Header("RNG")] public int seed = 12345; // determinístico para QA
 
+        [Header("Splash Screen Settings")]
+        public bool enableSplashScreen = true;
+        [Range(1f, 5f)] public float providerLogoDuration = 2f;
+        [Range(1f, 5f)] public float loadingDuration = 2.5f;
+        public bool allowSkipSplash = true;
+
         public void ApplyRuntimeAdjust(float rtp, VolatilityMode vol, int lines)
         {
             targetRTP = Mathf.Clamp(rtp, 85f, 97f);
