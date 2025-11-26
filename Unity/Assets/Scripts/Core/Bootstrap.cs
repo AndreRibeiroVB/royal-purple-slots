@@ -42,7 +42,7 @@ namespace Slots.Core
 
         private T FindOrAdd<T>() where T : Component
         {
-            var c = FindObjectOfType<T>();
+            var c = FindAnyObjectByType<T>();
             if (!c) c = new GameObject(typeof(T).Name).AddComponent<T>();
             return c;
         }
